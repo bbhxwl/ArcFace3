@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>bbhxwl</Authors>
+    <PackageProjectUrl>https://github.com/bbhxwl/ArcFace3</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bbhxwl/ArcFace3</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

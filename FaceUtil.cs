@@ -23,7 +23,8 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-               // LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
+              
             }
             return multiFaceInfo;
         }
@@ -43,7 +44,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return multiFaceInfo;
         }
@@ -77,7 +78,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return faceFeature;
         }
@@ -105,7 +106,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return faceFeature;
         }
@@ -137,7 +138,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return ageInfo;
         }
@@ -170,7 +171,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return genderInfo;
         }
@@ -203,7 +204,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return face3DAngle;
         }
@@ -237,7 +238,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return livenessInfo;
         }
@@ -271,7 +272,7 @@ namespace ArcFaceSDK
             }
             catch (Exception ex)
             {
-                //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                throw ex;
             }
             return livenessInfo;
         }
@@ -304,7 +305,7 @@ namespace ArcFaceSDK
                 }
                 catch (Exception ex)
                 {
-                    //LogUtil.LogInfo(typeof(FaceUtil), ex);
+                    throw ex;
                 }
             }
             //获取对应的人脸信息
