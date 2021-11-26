@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace ArcFaceSDK
 {
-    /// <summary>
+    /// <summary> 
     /// ArcFace 接口封装类
     /// </summary>
     public class FaceEngine
