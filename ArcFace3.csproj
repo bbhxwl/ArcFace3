@@ -7,6 +7,7 @@
     <Authors>bbhxwl</Authors>
     <PackageProjectUrl>https://github.com/bbhxwl/ArcFace3</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bbhxwl/ArcFace3</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
